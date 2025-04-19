@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 # --- Keele University Logo (Centered) ---
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image("keele_logo.jpg", use_column_width=True)
+    st.image("images/keele_logo.jpg", use_column_width=True)
 
 # --- Load trained model and objects ---
 with open("rf_model.pkl", "rb") as f:
